@@ -1,0 +1,4 @@
+Here in the project provided, MainActivity has the basic UI calling using the state. Based on the state different UI is shown.
+WeatherViewModel is the class that uses the coroutine to call the method getWeather from Repository where city and API key are passed
+as the parameters. WeatherResponse is the Data class that stores the response of the API. NetworkModule is the file that
+has the retrofit connection to call the API.  
